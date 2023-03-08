@@ -1,0 +1,71 @@
+
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #c2bbbb;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    width: 80%;
+    height: 30%;
+    margin: 0 auto;
+    
+  }
+
+.tituloPlaya {
+    font-size: 80px;
+    padding: 0;
+    position: relative;
+    color: white;
+    text-shadow: 1px 1px 0 #999;
+    transform: translate(-13.2%, -1075%);
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.textoPlaya{
+    font-size: 30px;
+    padding: 0;
+    position: relative;
+    color: white;
+    transform: translate(16%, -750%);
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 60%;
+    margin-left: 4.5%;
+}
+
+.botonCabañas{
+
+  border-radius: 50px; /* ajusta el valor para hacer más o menos redondeado */
+  position: relative;
+  background-color: #208b98;
+  font-size: 25px;
+  color: white;
+  left: 250px;
+  cursor: pointer;
+  bottom: 1050px;
+  width: 290px;
+  height: 70px;
+  padding: 10px 20px;
+  border: none;
+}
+
+.botonCabañas2{
+
+  border-radius: 50px; /* ajusta el valor para hacer más o menos redondeado */
+  position: relative;
+  background-color: #208b98;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  left: 290px;
+  bottom: 1050px;
+  width: 290px;
+  height: 70px;
+  padding: 10px 20px;
+  border: none;
+}

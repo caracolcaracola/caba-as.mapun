@@ -1,0 +1,11 @@
+
+.seccionFooter{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+
+#divFooter{
+    height: 30%;
+    width: 100%;
+}

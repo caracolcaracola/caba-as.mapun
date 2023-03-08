@@ -1,0 +1,88 @@
+
+.containerCabañas{
+    background-color: white;
+    position: relative;
+    width: 80%;
+    height: 2000px;
+    border-radius: 20px;
+    margin: 0 auto;
+    bottom: 800px;
+  
+}
+
+.estiloCabañas{
+    border: 2px solid black;
+    background-color:white;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    width: 93%;
+    height: 250px;
+}
+
+.flexboxCabañas{
+    display: flex;
+  flex-direction: column; /* establecer la dirección como columna */
+  gap: 40px;
+}
+
+.rectanguloCabaña{
+    width: 30%; /* establecer el ancho del rectángulo */
+    height: 250px; /* establecer la altura del rectángulo */
+  background-color: aqua;
+  display: flex;
+    background-color: aqua;
+}
+
+.imagenCabaña{
+    max-width: 100%; /* establecer el ancho máximo de la imagen al 100% del ancho del rectángulo */
+    max-height: 100%;
+}
+
+.containerGrid{
+  height: 250px;
+  width: 70%;
+  position: relative;
+  left: 30%;
+  bottom: 100%;
+}
+
+.gridCabañas{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-rows: 50px 30px 50px auto; /* tres filas, la del medio con altura variable */
+  grid-template-columns:50% 20% auto; /* tres columnas con igual ancho */
+  gap: 10px; /* separación entre elementos */
+}
+
+.item{
+    background-color: antiquewhite;
+}
+.nombre {
+  grid-column: 1/4;
+  font-size: 27px;
+  left: 15px;
+}
+
+.servicios {
+  grid-row: 2; /* segunda fila */
+  grid-column: 1; /* primera columna */
+  position: relative ;
+  left: 15px;
+}
+
+.descripcion {
+  grid-row: 3/5; /* segunda fila */
+  grid-column: 1/3; /* segunda columna */
+  max-height: 125px;
+  position: relative ;
+  left: 15px;
+}
+
+.iconoServicios{
+  max-width: 10%;
+  max-height:  100%;
+  background-image: url(/img/cabañaPrueba.avif);
+  background-size: cover;
+}
